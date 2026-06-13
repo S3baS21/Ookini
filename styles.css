@@ -1,58 +1,62 @@
 body {
     background-color: #fcfff9;
     font-family: Georgia, sans-serif;
-    color:#050505d3;
+    color: #050505d3;
 }
+
 h1 {
     color: #E25822;
     font-family: chango, sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
-header{
+
+header {
     padding: 1.5rem 2rem;
     border-bottom: 2px solid #050505;
-    background-color: chocolate;
-}
-nav a{
-    color:#E25822;
-}
-main{
-    padding: 3rem 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.metodo-titulo{
-    font-size: 1.1rem;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
-    color: #c06d01; 
-}
-.precio{
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #c06d01;
-}
-.contador{
-    font-weight: bold;
-    color: #E25822;
-}
 
-#contador-tazas{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #E25822;
-}
-#boton-reservar{
-   display: block;
-   margin-top: 1rem;
-   padding: 0.5rem 1.25rem;
-   background-color: #c06d01;
-   color:#fcfff9;
-   border: none;
-   font-family:  Georgia, sans-serif;
-   font-size: 1rem;
-   cursor: pointer;
-}
+    nav a {
+        color: #E25822;
+    }
 
+    main {
+        padding: 3rem 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+    }
 
+    .metodo-titulo {
+        font-size: 1.1rem;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+        color: #c06d01;
+    }
+
+    .precio {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #c06d01;
+    }
+
+    .contador {
+        font-weight: bold;
+        color: #E25822;
+    }
+
+    #contador-tazas {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #E25822;
+    }
+
+    #boton-reservar {
+        display: block;
+        margin-top: 1rem;
+        padding: 0.5rem 1.25rem;
+        background-color: #c06d01;
+        color: #fcfff9;
+        border: none;
+        font-family: Georgia, sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+    }
